@@ -7,3 +7,4 @@ Visor IFC federado gratuito: abre varios modelos IFC (IFC2x3, IFC4, IFC4x3), con
 - Los modelos se procesan en el dispositivo y nunca se suben a un servidor.
 - **Compartir QR:** el celular o la tableta descarga el modelo directo del computador que comparte y lo guarda para verlo después sin conexión.
 - **Enviar como archivo:** genera un `.bmfed.zip` para mandar por WhatsApp o correo; se abre con el botón «Abrir».
+- **Realidad aumentada (botón RA):** muestra los elementos visibles como maqueta sobre la mesa o a tamaño real. El QR lleva el modelo al celular o la tableta (Chrome en Android con ARCore, Safari en iPhone/iPad).
