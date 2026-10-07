@@ -9,3 +9,8 @@ Visor IFC federado gratuito: abre varios modelos IFC (IFC2x3, IFC4, IFC4x3), con
 - **Enviar como archivo:** genera un `.bmfed.zip` para mandar por WhatsApp o correo; se abre con el botón «Abrir».
 - **Realidad aumentada (botón RA):** muestra los elementos visibles como maqueta sobre la mesa o a tamaño real. El QR lleva el modelo al celular o la tableta (Chrome en Android con ARCore, Safari en iPhone/iPad).
 - **RA con marcador:** funciona en cualquier celular o tableta con cámara (sin ARCore): la maqueta aparece sobre el marcador que se muestra en la pantalla del computador o impreso en papel.
+
+## App para celular y tableta
+
+- **Instalable (PWA), Android e iPhone/iPad:** abre el visor y toca **Instalar app** (en iPhone: Safari › Compartir › *Añadir a pantalla de inicio*). Abre en pantalla completa y funciona sin conexión para ver modelos guardados.
+- **App Android nativa (APK):** [descargar la última versión](https://github.com/arqdanield90-design/bim-master-viewer/releases/latest/download/BIM-MASTER-Viewer.apk). Se compila sola con GitHub Actions (`.github/workflows/android.yml`) cada vez que cambia `index.html`. El proyecto está en `app/` (Capacitor).

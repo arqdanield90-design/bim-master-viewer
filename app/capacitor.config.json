@@ -1,0 +1,12 @@
+{
+  "appId": "com.bimmaster.viewer",
+  "appName": "BIM MASTER Viewer",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#0f172a"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
